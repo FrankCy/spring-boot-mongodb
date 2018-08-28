@@ -29,9 +29,9 @@ public class HelloController {
     public String save(){
 
         User user = new User();
-        user.setId("1");
-        user.setName("张三");
-        user.setAge(10);
+        user.setId("2");
+        user.setName("李四");
+        user.setAge(22);
         userRepository.save(user);
 
         System.out.println("保存成功");
